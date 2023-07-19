@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df1aba45-52de-4b00-a44e-3e0d560a7359" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/escape-ajeossi-game.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/Ajeossi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/AjeossiManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/DuManSik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/KwakDooPal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/MaChunDong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/SeoPalGwang.java" afterDir="false" />
+    <list default="true" id="df1aba45-52de-4b00-a44e-3e0d560a7359" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/KwakDooPal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/KwakDooPal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +70,19 @@
       <option name="presentableId" value="Default" />
       <updated>1689755111662</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1689763072732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689763072732</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

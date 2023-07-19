@@ -12,19 +12,28 @@ public class KwakDooPal implements Ajeossi {
         this.mzPower = mzPower;
     }
 
+    public int getMzPower() {
+        return mzPower;
+    }
+
+    public void setMzPower(int mzPower) {
+        this.mzPower = mzPower;
+    }
+
     @Override
     public String toString() {
         return "---------------\n" +
                 "이름 : " + NAME + "\n"
                 + "나이 : " + AGE + "세 \n"
                 + "MZ력 : " + this.mzPower
-                + "\n---------------\n";
+                + "\n---------------";
     }
 
     /* this는 여기서 toString */
     @Override
     public void ment() {
-        System.out.println( this + "나 두팔쓰 " + AGE + "세! MZ력 무려 " + this.mzPower + "! 다들 좋댓구알은 아는가??? 요즘 유우행하는 말인디!");
+        System.out.println("나 두팔쓰 " + AGE + "세! MZ력 무려 " + this.mzPower + "! 다들 좋댓구알은 아는가??? 요즘 유우행하는 말인디!");
+//        System.out.println( this + "나 두팔쓰 " + AGE + "세! MZ력 무려 " + this.mzPower + "! 다들 좋댓구알은 아는가??? 요즘 유우행하는 말인디!");
     }
 
 }
