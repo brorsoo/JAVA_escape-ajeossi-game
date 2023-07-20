@@ -41,10 +41,17 @@ public class SeoPalGwang implements Ajeossi {
 
     @Override
     public int mzPower(int power, int isCheck) {
-        if(isCheck == 0) {
-            this.mzPower += power;
-        } else {
+        if (isCheck == 0) {
             this.mzPower -= power;
+            System.out.println("현재점수 : " + this.mzPower);
+
+            if (this.mzPower < Ajeossi.MZ_MIN) {
+                this.mzPower = 0;
+                System.out.println("현재점수 : " + this.mzPower);
+            }
+        } else if(isCheck == 1) {
+            this.mzPower += power;
+            System.out.println("현재점수 : " + this.mzPower);
         }
 
         return this.mzPower;
