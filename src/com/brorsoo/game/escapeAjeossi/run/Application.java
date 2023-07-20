@@ -21,7 +21,7 @@ public class Application {
                                  " ⠀⠀⢀⡏⠀⠀⠀⠀  ⠈⠉⠁⠀  ⡸⠀⠀⠠⠤⠤⠴⠧⠤⠤⠄⠀⠀⠀⠀⠀\n");
             System.out.println("============ 아저씨 탈출하기 ============");
             System.out.println("1. 아저씨 선택");
-            System.out.println("2. MZ능력치 재확인 (select : " + ajeossiManager.name + ")" );
+            System.out.println("2. MZ능력치 재확인 (selected : " + ajeossiManager.name + ")" );
             System.out.println("3. 트레이닝하기");
             System.out.println("0. 그냥 아저씨로 살기 (게임종료)");
             System.out.println("==================================");
