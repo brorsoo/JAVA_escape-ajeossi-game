@@ -4,7 +4,7 @@ public class KwakDooPal implements Ajeossi {
 
     public static final String NAME = "곽두팔";
     public static final int AGE = 55;
-    public int mzPower;
+    public int mzPower;     // 생성시 초기화
 
     public KwakDooPal() { }
 
@@ -38,6 +38,12 @@ public class KwakDooPal implements Ajeossi {
                 "　/　　 )　　\n" +
                 "　( /￣∪　　\n" +
                 "      ");
+    }
+
+    @Override
+    public int mzPower(int power) {
+        this.mzPower += power;
+        return this.mzPower;
     }
 
 }

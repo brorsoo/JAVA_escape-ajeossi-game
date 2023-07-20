@@ -5,12 +5,14 @@ import java.util.Scanner;
 public class AjeossiManager {
 
     String name = "000";
-    Scanner sc = new Scanner(System.in);
+
 
     public Ajeossi selectAjeossi() {
         /* 메인메뉴 */
         Ajeossi choiceAjeossi = null;
         int num = 0;
+
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("===============");
         System.out.println("아저씨 캐릭터 선택");
@@ -28,11 +30,17 @@ public class AjeossiManager {
                     name = KwakDooPal.NAME;
                     break A;
                 case 2 :
-                    choiceAjeossi = new SeoPalGwang(); break A;
+                    choiceAjeossi = new SeoPalGwang(30);
+                    name = SeoPalGwang.NAME;
+                    break A;
                 case 3 :
-                    choiceAjeossi = new MaChunDong(); break A;
+                    choiceAjeossi = new MaChunDong(20);
+                    name = MaChunDong.NAME;
+                    break A;
                 case 4 :
-                    choiceAjeossi = new DuManSik();  break A;
+                    choiceAjeossi = new DuManSik(10);
+                    name = DuManSik.NAME;
+                    break A;
                 default:
                     System.out.println("다시 선택해주세요");
             }
@@ -48,6 +56,7 @@ public class AjeossiManager {
     public void trainingMenu(Ajeossi ajeossi) {
         /* 트레이닝 메뉴 선택 */
         int num = 0;
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("===============");
         System.out.println("트레이닝 선택");

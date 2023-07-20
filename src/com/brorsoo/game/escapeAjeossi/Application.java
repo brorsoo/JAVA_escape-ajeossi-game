@@ -8,7 +8,6 @@ public class Application {
         Scanner sc = new Scanner(System.in);
         AjeossiManager ajeossiManager = new AjeossiManager();
         Ajeossi ajeossi = null;
-        Ajeossi seletedAjeossi = null;
 
         mainMenu :
         while (true) {
@@ -23,7 +22,6 @@ public class Application {
             switch (menuNo) {
                 case 1 :    // 아저씨 선택
                     ajeossi = ajeossiManager.selectAjeossi();
-                    seletedAjeossi = ajeossi;
                     break;
                 case 2 :    // 트레이닝 메뉴
                     if(ajeossi != null) {
