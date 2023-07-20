@@ -6,11 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="df1aba45-52de-4b00-a44e-3e0d560a7359" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/AjeossiManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/AjeossiManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/DuManSik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/DuManSik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/KwakDooPal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/KwakDooPal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/MaChunDong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/MaChunDong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/SeoPalGwang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/SeoPalGwang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/Ajeossi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/dto/Ajeossi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/AjeossiManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/service/AjeossiManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/run/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/DuManSik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/dto/DuManSik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/KwakDooPal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/dto/KwakDooPal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/MaChunDong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/dto/MaChunDong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/SeoPalGwang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/dto/SeoPalGwang.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +42,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Lecture/1_java/1_lecture source/escape-ajeossi-game",
+    "last_opened_file_path": "D:/Dev/studyPj/escape-ajeossi-game",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.brorsoo.game.escapeAjeossi.Application" />
+      <option name="MAIN_CLASS_NAME" value="com.brorsoo.game.escapeAjeossi.run.Application" />
       <module name="escape-ajeossi-game" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.brorsoo.game.escapeAjeossi.*" />
+          <option name="PATTERN" value="com.brorsoo.game.escapeAjeossi.dto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

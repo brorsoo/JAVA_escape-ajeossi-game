@@ -1,13 +1,13 @@
-package com.brorsoo.game.escapeAjeossi;
+package com.brorsoo.game.escapeAjeossi.dto;
 
-public class MaChunDong implements Ajeossi {
-    public static final String NAME = "마춘동";
-    public static final int AGE = 58;
+public class DuManSik implements Ajeossi {
+    public static final String NAME = "두만식";
+    public static final int AGE = 53;
     public int mzPower;         // 생성시 초기화
 
-    public MaChunDong() { }
+    public DuManSik() { }
 
-    public MaChunDong(int mzPower) {
+    public DuManSik(int mzPower) {
         this.mzPower = mzPower;
     }
 
@@ -33,8 +33,8 @@ public class MaChunDong implements Ajeossi {
     public void ment() {
         System.out.println("　　∧__∧　　　　\n" +
                 "　( ｀Д´ ）　　\n" +
-                "(っ▄︻▇〓┳═　" + "나 춘동쓰 " + AGE + "세인디! MZ력은 무려 " + this.mzPower + "이여! 요즘 신세대들은 아이폰 쓴다해서 하나 장만 해봤는디 어뗘!\n" +
-                "　/　　 )　　\n" +
+                "(っ▄︻▇〓┳═　" + "   나 만식쓰 " + AGE + "세여~! 그..MZ력 무려 " + this.mzPower + " 인디! \n" +
+                "　/　　 )　　             핸드폰은 전화 걸고 받는거만 할 줄 알믄 되는거 아녀?! \n" +
                 "　( /￣∪　　\n" +
                 "      ");
     }

@@ -1,13 +1,16 @@
-package com.brorsoo.game.escapeAjeossi;
+package com.brorsoo.game.escapeAjeossi.dto;
 
-public class DuManSik implements Ajeossi {
-    public static final String NAME = "두만식";
-    public static final int AGE = 53;
-    public int mzPower;         // 생성시 초기화
+public class KwakDooPal implements Ajeossi {
 
-    public DuManSik() { }
+    public static final String NAME = "곽두팔";
+    public static final int AGE = 55;
+    public int mzPower;     // 생성시 초기화
 
-    public DuManSik(int mzPower) {
+
+    public KwakDooPal() {
+    }
+
+    public KwakDooPal(int mzPower) {
         this.mzPower = mzPower;
     }
 
@@ -33,8 +36,8 @@ public class DuManSik implements Ajeossi {
     public void ment() {
         System.out.println("　　∧__∧　　　　\n" +
                 "　( ｀Д´ ）　　\n" +
-                "(っ▄︻▇〓┳═　" + "나 만식쓰 " + AGE + "세여~! 그..MZ력 무려 " + this.mzPower + "인디! 핸드폰은 전화 걸고 받는거만 할 줄 알믄 되는거 아녀?!\n" +
-                "　/　　 )　　\n" +
+                "(っ▄︻▇〓┳═　" + "   나 두팔쓰 " + AGE + "세! MZ력 무려 " + this.mzPower + "! \n" +
+                "　/　　 )　　             다들 좋댓구알은 아는가??? 요즘 유우행하는 말인디! \n" +
                 "　( /￣∪　　\n" +
                 "      ");
     }

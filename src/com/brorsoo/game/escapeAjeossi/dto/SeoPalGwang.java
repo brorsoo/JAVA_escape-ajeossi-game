@@ -1,16 +1,13 @@
-package com.brorsoo.game.escapeAjeossi;
+package com.brorsoo.game.escapeAjeossi.dto;
 
-public class KwakDooPal implements Ajeossi {
+public class SeoPalGwang implements Ajeossi {
+    public static final String NAME = "서팔광";
+    public static final int AGE = 50;
+    public int mzPower;         // 생성시 초기화
 
-    public static final String NAME = "곽두팔";
-    public static final int AGE = 55;
-    public int mzPower;     // 생성시 초기화
+    public SeoPalGwang() { }
 
-
-    public KwakDooPal() {
-    }
-
-    public KwakDooPal(int mzPower) {
+    public SeoPalGwang(int mzPower) {
         this.mzPower = mzPower;
     }
 
@@ -36,8 +33,8 @@ public class KwakDooPal implements Ajeossi {
     public void ment() {
         System.out.println("　　∧__∧　　　　\n" +
                 "　( ｀Д´ ）　　\n" +
-                "(っ▄︻▇〓┳═　" + "나 두팔쓰 " + AGE + "세! MZ력 무려 " + this.mzPower + "! 다들 좋댓구알은 아는가??? 요즘 유우행하는 말인디! \n" +
-                "　/　　 )　　\n" +
+                "(っ▄︻▇〓┳═　" + "   나 팔광쓰 " + AGE + "세! MZ력 " + this.mzPower + "! \n" +
+                "　/　　 )　　             아따 인서타로 다렉트메쎄지 정도는 보낼 줄 알지!! \n" +
                 "　( /￣∪　　\n" +
                 "      ");
     }
