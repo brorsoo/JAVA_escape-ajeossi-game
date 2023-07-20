@@ -40,9 +40,15 @@ public class DuManSik implements Ajeossi {
     }
 
     @Override
-    public int mzPower(int power) {
-        this.mzPower += power;
+    public int mzPower(int power, int isCheck) {
+        if(isCheck == 0) {
+            this.mzPower += power;
+        } else {
+            this.mzPower -= power;
+        }
+
         return this.mzPower;
     }
+
 
 }

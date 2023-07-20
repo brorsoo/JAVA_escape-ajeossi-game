@@ -6,7 +6,9 @@ public class KwakDooPal implements Ajeossi {
     public static final int AGE = 55;
     public int mzPower;     // 생성시 초기화
 
-    public KwakDooPal() { }
+
+    public KwakDooPal() {
+    }
 
     public KwakDooPal(int mzPower) {
         this.mzPower = mzPower;
@@ -41,9 +43,20 @@ public class KwakDooPal implements Ajeossi {
     }
 
     @Override
-    public int mzPower(int power) {
-        this.mzPower += power;
+    public int mzPower(int power, int isCheck) {
+        if (isCheck == 0) {
+            this.mzPower -= power;
+
+            if (this.mzPower < Ajeossi.MZ_MIN) {
+                this.mzPower = 0;
+            }
+        } else {
+            this.mzPower += power;
+        }
+        System.out.println("현재점수 : " + this.mzPower);
+
         return this.mzPower;
     }
+
 
 }

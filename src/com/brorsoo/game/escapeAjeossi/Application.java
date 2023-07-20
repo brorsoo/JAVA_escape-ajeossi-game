@@ -16,7 +16,7 @@ public class Application {
             System.out.println("2. 트레이닝하기");
             System.out.println("3. 현재 MZ능력치 확인");
             System.out.println("9. 그냥 아저씨로 살기 (게임종료)");
-            System.out.print("번호선택 : ");
+            System.out.print("\n번호선택 : ");
             int menuNo = sc.nextInt();
 
             switch (menuNo) {
@@ -26,7 +26,7 @@ public class Application {
                 case 2 :    // 트레이닝 메뉴
                     if(ajeossi != null) {
                         ajeossiManager.trainingMenu(ajeossi);
-                        break;
+                        break mainMenu;
                     } else {
                         System.out.println("\n선택한 아저씨가 없습니다.\n");
                         break;

@@ -8,6 +8,6 @@ public interface Ajeossi {
 
     /* 각 아저씨 멘트 */
     void ment();
-    int mzPower(int power);
+    int mzPower(int power, int isCheck);
 
 }
