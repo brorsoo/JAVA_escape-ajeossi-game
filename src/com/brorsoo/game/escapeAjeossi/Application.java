@@ -26,8 +26,13 @@ public class Application {
                     seletedAjeossi = ajeossi;
                     break;
                 case 2 :    // 트레이닝 메뉴
-                    ajeossiManager.trainingMenu(seletedAjeossi);
-                    break;
+                    if(ajeossi != null) {
+                        ajeossiManager.trainingMenu(ajeossi);
+                        break;
+                    } else {
+                        System.out.println("\n선택한 아저씨가 없습니다.\n");
+                        break;
+                    }
                 case 3 :    // 현재 MZ능력치 확인
                     if(ajeossi != null) {
                         System.out.println(ajeossi);
