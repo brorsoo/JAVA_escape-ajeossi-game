@@ -24,7 +24,7 @@ public class Application {
             System.out.println("2. MZ능력치 재확인 (selected : " + ajeossiManager.name + ")" );
             System.out.println("3. 트레이닝하기");
             System.out.println("0. 그냥 아저씨로 살기 (게임종료)");
-            System.out.println("==================================");
+            System.out.println("======================================");
             System.out.print("\n번호선택 : ");
             int menuNo = sc.nextInt();
 

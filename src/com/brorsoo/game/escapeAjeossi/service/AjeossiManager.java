@@ -5,7 +5,7 @@ import com.brorsoo.game.escapeAjeossi.dto.*;
 import java.util.Scanner;
 
 public class AjeossiManager {
-    public String name = "x";
+    public String name = "선택안됨";
 
     public Ajeossi selectAjeossi() {
 

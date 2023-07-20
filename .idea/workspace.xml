@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df1aba45-52de-4b00-a44e-3e0d560a7359" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/Ajeossi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/dto/Ajeossi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/AjeossiManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/service/AjeossiManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/run/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/DuManSik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/dto/DuManSik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/KwakDooPal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/dto/KwakDooPal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/MaChunDong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/dto/MaChunDong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/SeoPalGwang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/brorsoo/game/escapeAjeossi/dto/SeoPalGwang.java" afterDir="false" />
-    </list>
+    <list default="true" id="df1aba45-52de-4b00-a44e-3e0d560a7359" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689849751676</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1689872639536</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689872639536</updated>
+    </task>
+    <task id="LOCAL-00008" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1689872713023</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689872713023</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
